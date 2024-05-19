@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Button from './Button';
-import PinEntryPad from './PinEntryPad';
+import PinEntryPad from '../modals/PinEntryPad';
 
 const LockScreen = () => {
     const [employeeId, setEmployeeId] = useState('');
